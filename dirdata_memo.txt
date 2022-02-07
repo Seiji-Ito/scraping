@@ -1,0 +1,221 @@
+ASCII_SPACES
+DEFAULT_BUILDER_FEATURES
+DEFAULT_INTERESTING_STRING_TYPES
+NO_PARSER_SPECIFIED_WARNING
+ROOT_TAG_NAME
+__bool__
+__call__
+__class__
+__contains__
+__copy__
+__delattr__
+__delitem__
+__dict__
+__dir__
+__doc__
+__eq__
+__format__
+__ge__
+__getattr__
+__getattribute__
+__getitem__
+__getstate__
+__gt__
+__hash__
+__init__
+__init_subclass__
+__iter__
+__le__
+__len__
+__lt__
+__module__
+__ne__
+__new__
+__reduce__
+__reduce_ex__
+__repr__
+__setattr__
+__setitem__
+__sizeof__
+__str__
+__subclasshook__
+__unicode__
+__weakref__
+_all_strings
+_check_markup_is_url
+_decode_markup
+_feed
+_find_all
+_find_one
+_is_xml
+_lastRecursiveChild
+_last_descendant
+_linkage_fixer
+_most_recent_element
+_namespaces
+_popToTag
+_should_pretty_print
+append
+attrs                                      :{}
+
+builder                                    :None
+
+can_be_empty_element
+
+cdata_list_attributes                      :'a'とか'td'とか
+
+childGenerator                             : 大量のデータ。音声で検索とか全画面に切り替えるとか画面上に出てくる
+                                             マウスオーバーした時のポップアップテキストっぽい。
+                                             
+children                                   :<list_iterator object as 0x000...>listイテレータ※要調査
+
+clear                                      :<list_iterator object as 0x000...>listイテレータ※要調査
+
+contains_replacement_characters            :bool値、False
+
+contents                                   :大量のテキスト、javascriptの構文。
+                                            htmlの中身そのもの？？
+                                            長さ２のリスト 0:Doctype
+                                                           1:Tag
+
+currentTag                                 :contentsと一緒？？
+
+current_data                               :[]
+
+declared_html_encoding                     :None
+
+decode                                     :contentsと一緒？？
+
+decode_contents                            :contentsと一緒？？
+
+decompose                                  :contentsと一緒？？
+
+decomposed                                 :False
+
+default                                    :<object object at 0x000...>objectオブジェクト※要調査
+
+descendants                                :<generator object Tag.descendants at 0x000...>※要調査
+
+element_classes                            :[]
+
+encode                                     :contentsと一緒？？
+
+encode_contents                            :contentsと一緒？？
+
+endData                                    :contentsと一緒？？
+
+extend                                     :contentsと一緒？？
+
+extract                                    :contentsと一緒？？
+
+fetchNextSiblings                          :contentsと一緒？？
+
+fetchParents                               :contentsと一緒？？
+
+fetchPrevious                              :contentsと一緒？？
+
+fetchPreviousSiblings                      :contentsと一緒？？
+
+find                                       :contentsと一緒？？
+
+findAll                                    :contentsと一緒？？
+findAllNext
+findAllPrevious
+findChild
+findChildren
+findNext
+findNextSibling
+findNextSiblings
+findParent
+findParents
+findPrevious
+findPreviousSibling
+findPreviousSiblings
+find_all
+find_all_next
+find_all_previous
+find_next
+find_next_sibling
+find_next_siblings
+find_parent
+find_parents
+find_previous
+find_previous_sibling
+find_previous_siblings
+format_string
+formatter_for_name
+get
+getText
+get_attribute_list
+get_text
+handle_data
+handle_endtag
+handle_starttag
+has_attr
+has_key
+hidden
+index
+insert
+insert_after
+insert_before
+interesting_string_types
+isSelfClosing
+is_empty_element
+is_xml
+known_xml
+markup
+name
+namespace
+new_string
+new_tag
+next
+nextGenerator
+nextSibling
+nextSiblingGenerator
+next_element
+next_elements
+next_sibling
+next_siblings
+object_was_parsed
+open_tag_counter
+original_encoding
+parent
+parentGenerator
+parents
+parse_only
+parserClass
+parser_class
+popTag
+prefix
+preserve_whitespace_tag_stack
+preserve_whitespace_tags
+prettify
+previous
+previousGenerator
+previousSibling
+previousSiblingGenerator
+previous_element
+previous_elements
+previous_sibling
+previous_siblings
+pushTag
+recursiveChildGenerator
+renderContents
+replaceWith
+replaceWithChildren
+replace_with
+replace_with_children
+reset
+select
+select_one
+setup
+smooth
+string
+string_container
+string_container_stack
+strings
+stripped_strings
+tagStack
+text
+unwrap
+wrap
